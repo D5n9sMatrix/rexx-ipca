@@ -41,8 +41,8 @@ For example, here’s yet another way to encode the if statement:
 ```rexx
 IF the_number = the_guess THEN
 ELSE
-SAY ‘You guessed it!’
-SAY ‘Sorry, my number was: ‘ the_number
+SAY "You guessed it!"
+SAY "Sorry, my number was: " the_number
 ```
 About the only situation in which spacing is not the programmer’s option is when encoding a Rexx func-
 tion. A function is a built-in routine Rexx provides as part of the language; you also may write your own
